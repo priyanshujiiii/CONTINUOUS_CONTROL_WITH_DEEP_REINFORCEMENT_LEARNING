@@ -218,7 +218,7 @@ class Agent(object):
         target = target.view(self.batch_size, 1)
         self.critic.train()
         self.critic.optimizer.zero_grad()
-        critic_loss = F.mse_loss(critic_value, target)
+        critic_loss = F.mse_loss(target,critic_value)
         critic_loss.backward()
         self.critic.optimizer.step()
         self.critic.eval()
