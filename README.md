@@ -5,16 +5,8 @@
 > by Timothy P. Lillicrap\*, Jonathan J. Hunt\*, Alexander Pritzel, Nicolas Heess, Tom Erez, Yuval Tassa, David Silver & Daan Wierstra  
 > 📍 Published at **ICLR 2016** — [arXiv:1509.02971](https://arxiv.org/abs/1509.02971)
 
----
-
-## 📌 Overview
-
-This repository contains a PyTorch reimplementation of the **Deep Deterministic Policy Gradient (DDPG)** algorithm, which extends Deep Q-Learning to continuous control problems.
-
-DDPG is a model-free, off-policy actor-critic algorithm that can learn policies in high-dimensional, continuous action spaces.
 
 ---
-
 ## 📊 Results
 
 | Agent Playing Lunar Lander (10 sec)                | Project Architecture Diagram       |
@@ -25,6 +17,14 @@ DDPG is a model-free, off-policy actor-critic algorithm that can learn policies 
 
 
 ---
+## 📌 Overview
+
+This repository contains a PyTorch reimplementation of the **Deep Deterministic Policy Gradient (DDPG)** algorithm, which extends Deep Q-Learning to continuous control problems.
+
+DDPG is a model-free, off-policy actor-critic algorithm that can learn policies in high-dimensional, continuous action spaces.
+
+---
+
 ## 🛠️ Features
 
 - ✅ Fully modular PyTorch implementation  
