@@ -15,15 +15,6 @@ DDPG is a model-free, off-policy actor-critic algorithm that can learn policies 
 
 ---
 
-## 🛠️ Features
-
-- ✅ Fully modular PyTorch implementation  
-- ✅ Works with any OpenAI Gym continuous control environment  
-- ✅ Actor-Critic with target networks  
-- ✅ Experience Replay  
-- ✅ Ornstein–Uhlenbeck noise for exploration  
-- ✅ TensorBoard logging support
----
 ## 📊 Results
 
 | Agent Playing Lunar Lander (10 sec)                | Project Architecture Diagram       |
@@ -34,6 +25,16 @@ DDPG is a model-free, off-policy actor-critic algorithm that can learn policies 
 
 
 ---
+## 🛠️ Features
+
+- ✅ Fully modular PyTorch implementation  
+- ✅ Works with any OpenAI Gym continuous control environment  
+- ✅ Actor-Critic with target networks  
+- ✅ Experience Replay  
+- ✅ Ornstein–Uhlenbeck noise for exploration  
+- ✅ TensorBoard logging support
+---
+
 
 ## 📂 Project Structure
 ```
