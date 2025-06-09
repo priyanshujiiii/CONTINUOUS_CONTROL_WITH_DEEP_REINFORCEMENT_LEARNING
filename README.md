@@ -24,12 +24,34 @@ DDPG is a model-free, off-policy actor-critic algorithm that can learn policies 
 - ✅ Ornstein–Uhlenbeck noise for exploration  
 - ✅ TensorBoard logging support
 
+
 ---
 
-## 🚀 Getting Started
+## 📂 Project Structure
+```
+project/
+├── tmp/
+│ └── ddpg/
+│ ├── actorddpg
+│ ├── criticddpg
+│ ├── target_actorddpg
+│ └── target_criticddpg
+├── DDPG_Result.ipynb
+├── execute.py
+├── ddpg.py
+├── project.png
+└── lunarlander_10s_agent.mp4
+```
 
-### 1. Clone the repository
+Run the Jupyter Notebook
 
-```bash
-git clone https://github.com/<your_username>/ddpg-pytorch.git
-cd ddpg-pytorch
+Open DDPG_Result.ipynb in Jupyter Notebook or JupyterLab.
+
+    Important:
+    When prompted about numpy installation and asked to restart the notebook, do not restart.
+    Instead, choose No, then run this command in the next cell:
+```
+!python execute.py
+```
+
+This will run the trained agent and save the results.
