@@ -23,6 +23,14 @@ DDPG is a model-free, off-policy actor-critic algorithm that can learn policies 
 - ✅ Experience Replay  
 - ✅ Ornstein–Uhlenbeck noise for exploration  
 - ✅ TensorBoard logging support
+---
+## 📊 Results
+
+| Agent Playing Lunar Lander (10 sec)                | Project Architecture Diagram       |
+| --------------------------------------------------| --------------------------------- |
+| ![Agent Video](lunarlander_10s_agent.mp4) *(video file in project directory)* | ![Project Architecture](project.png) |
+
+*Note:* The video and image files are located in the `project/` directory.
 
 
 ---
