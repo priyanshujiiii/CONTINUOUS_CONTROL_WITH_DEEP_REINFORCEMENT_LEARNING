@@ -9,7 +9,7 @@
 ---
 ## 📊 Results
 
-| Agent Playing Lunar Lander (10 sec)                | Project Architecture Diagram       |
+| Agent Playing Lunar Lander                | Project Architecture Diagram       |
 | --------------------------------------------------| --------------------------------- |
 | ![Agent Video](project/lunar.gif) | ![Project Architecture](project/project.png) |
 
