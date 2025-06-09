@@ -11,9 +11,8 @@
 
 | Agent Playing Lunar Lander (10 sec)                | Project Architecture Diagram       |
 | --------------------------------------------------| --------------------------------- |
-| ![Agent Video](project/lunar.gif) *(video file in project directory)* | ![Project Architecture](project/project.png) |
+| ![Agent Video](project/lunar.gif) | ![Project Architecture](project/project.png) |
 
-*Note:* The video and image files are located in the `project/` directory.
 
 
 ---
